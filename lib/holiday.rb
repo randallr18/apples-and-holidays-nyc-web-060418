@@ -101,7 +101,6 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect do |season, values|
     values.collect do |holiday, supplies|
       if supplies.index('BBQ') != nil
-        binding.pry
         holiday
       end
       end
