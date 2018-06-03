@@ -103,7 +103,6 @@ def all_holidays_with_bbq(holiday_hash)
       if supplies.index('BBQ') != nil
         holiday
       end
-      end
     end
 
 end
