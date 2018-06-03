@@ -100,7 +100,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.each do |season, values|
     values.collect do |holiday, supplies|
-      if supplies.index('BBQ') > -1
+      if supplies.index('BBQ') != nil
         holiday
       end
       end
